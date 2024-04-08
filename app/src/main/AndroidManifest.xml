@@ -17,6 +17,14 @@
         android:theme="@style/Theme.Clase4"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity0"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".MainActivity1"
+            android:exported="true">
+        </activity>
+        <activity
             android:name=".MainActivity2"
             android:exported="true">
         </activity>
