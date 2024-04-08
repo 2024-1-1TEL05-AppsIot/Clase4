@@ -115,7 +115,8 @@ public class MainActivity extends AppCompatActivity {
                     if(response.isSuccessful()){
                         List<Comment> comments = response.body();
                         for(Comment c : comments){
-                            Log.d("msg-test-ws-comments","id: " + c.getId() + " | body: " + c.getBody());
+                            Log.d("msg-test-ws-comments","id: "
+                                    + c.getId() + " | body: " + c.getBody());
                         }
                     }
                 }
