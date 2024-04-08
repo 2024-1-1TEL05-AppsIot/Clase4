@@ -7,10 +7,11 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/rpta"
+        android:id="@+id/rptaTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,13 +28,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/contadorTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="17dp"
         android:layout_marginTop="34dp"
         android:layout_marginEnd="16dp"
         android:text="TextView"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/button"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/button" />
@@ -43,9 +45,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:backgroundTint="#00BCD4"
         android:text="Obtener ws"
-        app:layout_constraintBottom_toTopOf="@+id/rpta"
-        app:layout_constraintEnd_toEndOf="@+id/rpta"
-        app:layout_constraintStart_toStartOf="@+id/rpta" />
+        app:layout_constraintBottom_toTopOf="@+id/rptaTextView"
+        app:layout_constraintEnd_toEndOf="@+id/rptaTextView"
+        app:layout_constraintStart_toStartOf="@+id/rptaTextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
