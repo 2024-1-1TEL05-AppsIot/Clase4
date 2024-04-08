@@ -34,7 +34,7 @@ public class MainActivity1 extends AppCompatActivity {
                     for (int i = 1; i <= 10; i++) {
                         //contadorViewModel.getContador().postValue(i); // o1
                         binding.contadorTextView.setText(String.valueOf(i));
-                        Log.d("msg-test", "i: " + i);
+                        Log.d("msg-test-executorservice", "i: " + i);
                         try {
                             Thread.sleep(1000);
                         } catch (InterruptedException e) {
